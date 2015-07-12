@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/v_selected"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="@color/color_4998E0" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_nav_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textAllCaps="false"
+        android:gravity="left|bottom"
+        android:textSize="25sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_nav_sub"
+        android:layout_width="wrap_content"
+        android:gravity="left|bottom"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_FBCB9B"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        android:textSize="10sp" />
+
+
+</LinearLayout>
